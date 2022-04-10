@@ -10,9 +10,6 @@ function newImage (path, left, bottom){
     
 }
 
-image.addEventListener('dblclick', function (){
-    image.remove()
-})
 
 function newItem (path, left, bottom){
     let item = document.createElement('img')
